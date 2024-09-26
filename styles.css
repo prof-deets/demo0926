@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Light background for the body */
+    color: #333; /* Slightly darker text color for better readability */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px; /* Add space below headings */
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for header */
+    position: sticky; /* Make header stick at the top */
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 123, 167, 0.1); /* Lighter background for content */
+    margin-top: 20px; /* Add space below the header */
+    border-radius: 8px; /* Rounded corners for main content area */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #007BA7; /* Cerulean background for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners for buttons */
+}
+
+.about-me, .projects, .collections {
+    background-color: #f0f8ff;
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+    background-color: #fafad2;
+}
+
+.collections {
+    background-image: url('beach.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for footer */
+}
+
+a {
+    color: #007BA7; /* Cerulean color for links */
+    text-decoration: none; /* Remove underline from links */
+}
